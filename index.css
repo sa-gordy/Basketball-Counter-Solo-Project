@@ -1,0 +1,73 @@
+@font-face {
+    src: url("CursedTimerULiL.ttf");
+    font-family: CursedTimerULiL;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #1B244A;
+    height: 400px;
+    color: #EEEEEE;   
+}
+
+button {
+    /* font-family: CursedTimerULiL;
+    background: none;
+    padding: 5px 10px;
+    border: #9AABD8 1px solid;
+    border-radius: 3px;
+    color: #9AABD8; */
+}
+
+.column-title {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+}
+
+.counter {
+    font-family: CursedTimerULiL;
+    color: #F94F6D;
+    background: #080001;
+    width: 155px;
+    height: 120px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.add-number {
+    margin: 5px;
+    margin-top: 0;
+    font-family: CursedTimerULiL;
+    background: none;
+    padding: 5px 10px;
+    border: #9AABD8 1px solid;
+    border-radius: 3px;
+    color: #9AABD8;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+#new-game {
+    background: none;
+    color: #EEEEEE;
+    border: 1px #9AABD8 solid;
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-family: 'Verdana';
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 36px;
+}
